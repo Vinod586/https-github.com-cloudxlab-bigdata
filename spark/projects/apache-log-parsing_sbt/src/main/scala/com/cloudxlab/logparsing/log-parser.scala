@@ -52,6 +52,7 @@ object EntryPoint {
         var accessLogs = sc.textFile(args(2))
         val top10 = utils.gettop10(accessLogs, sc, args(1).toInt)
         println("===== TOP 10 IP Addresses =====")
+        println("vinod")
         for(i <- top10){
             println(i)
         }
